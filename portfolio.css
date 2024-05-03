@@ -1,0 +1,104 @@
+/* DEVELOPER Elliot Erhunmwuosere, IS117-006, Spring 2024 */
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+
+body {
+    background-color: #171b27;
+    color: #fcc66c;
+
+
+}
+
+main {
+    position: relative;
+
+    top: 1rem;
+
+}
+
+.navbar-toggler {
+    border-color: #FCC66C;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23fcc66c' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link+.nav-link.dropdown-toggle {
+    margin-left: -10px;
+    padding-left: 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#portfolio {
+    font-family: "Rubik wet paint";
+    margin-left: 40px;
+}
+
+
+
+.navbar-nav .nav-link {
+    margin-right: 12px;
+    color: #FCC66C;
+    font-family: "Rubik wet paint", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text-muted {
+    line-height: 16px;
+}
+
+.row {
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #FCC66C;
+    padding-bottom: 20px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-top: 40px;
+}
+
+
+
+
+hr {
+    position: relative;
+    top: 4rem;
+    border: solid #FCC66C;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0.5rem;
+}
+
+footer .container {
+    background-color: #171b27;
+    position: relative;
+    top: 3rem;
+
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+
+
+div img {
+    margin-right: 13px;
+
+}

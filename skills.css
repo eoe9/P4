@@ -1,0 +1,137 @@
+/* DEVELOPER Elliot Erhunmwuosere, IS117-006, Spring 2024 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171b27;
+    color: #fcc66c;
+
+
+}
+
+main {
+    height: 100vh;
+}
+
+main h1 {
+    font-family: "Rubik wet paint";
+}
+
+main>h1 {
+    margin-left: 40px;
+
+}
+
+
+.navbar-toggler {
+    border-color: #FCC66C;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23fcc66c' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link+.nav-link.dropdown-toggle {
+    margin-left: -10px;
+    padding-left: 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+
+
+.skills-container {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+
+}
+
+.label {
+    margin-top: 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 5px 0;
+
+}
+
+.progress {
+    height: 20px;
+    border-radius: 3px;
+    transition: width 0.4s ease-in-out;
+}
+
+
+
+.html5 {
+    width: 90%;
+    background-color: coral;
+}
+
+.css {
+    width: 50%;
+    background-color: rgb(250, 150, 0);
+}
+
+.python {
+    width: 40%;
+    background-color: coral;
+}
+
+.javascript {
+    width: 30%;
+    background-color: coral;
+}
+
+.react {
+    width: 10%;
+    background-color: coral;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 12px;
+    color: #FCC66C;
+    font-family: "Rubik wet paint", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+hr {
+    position: relative;
+    top: 4rem;
+    border: solid #FCC66C;
+}
+
+footer {
+    position: relative;
+    bottom: 0.5rem;
+}
+
+footer .container {
+    background-color: #171b27;
+    position: relative;
+    top: 3rem;
+
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
